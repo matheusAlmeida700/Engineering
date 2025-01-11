@@ -106,7 +106,7 @@ export const Hero = ({ id }) => {
         <ChevronRight className="h-6 w-6 text-white" />
       </button>
 
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <div className="absolute bottom-14 md:bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <div className="w-8 h-12 border-2 border-white rounded-full flex items-start justify-center p-2">
           <div className="w-1 h-3 bg-white rounded-full animate-scroll" />
         </div>
