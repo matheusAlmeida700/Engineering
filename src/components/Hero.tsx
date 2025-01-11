@@ -70,7 +70,7 @@ export const Hero = ({ id }) => {
           <p className="text-lg md:text-xl text-gray-200 mb-8 animate-fade-up">
             {heroImages[currentImage].subtitle}
           </p>
-          <div className="flex gap-4 justify-center animate-fade-up">
+          <div className="mx-10 md:mx-0 flex flex-col md:flex-row gap-4 justify-center animate-fade-up">
             <Button
               size="lg"
               className="bg-white text-primary border-2 border-white hover:bg-transparent hover:text-white transform hover:scale-105 transition-all duration-300"
@@ -78,7 +78,7 @@ export const Hero = ({ id }) => {
               <a href={whatsappLinkWithMessage} target="_blank">Solicitar Orçamento</a>
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
-            <Link to="services" smooth={true} duration={700}>
+            <Link className="inline-grid md:block" to="services" smooth={true} duration={700}>
               <Button
                 size="lg"
                 variant="outline"
@@ -93,14 +93,14 @@ export const Hero = ({ id }) => {
 
       <button
         onClick={prevImage}
-        className="hidden md:block absolute z-10 left-4 top-1/2 -translate-y-1/2 p-2 rounded-full bg-white/20 hover:bg-white/30 transition-colors"
+        className="absolute z-10 left-4 top-1/2 -translate-y-1/2 p-2 rounded-full bg-white/20 hover:bg-white/30 transition-colors"
         aria-label="Imagem anterior"
       >
         <ChevronLeft className="h-6 w-6 text-white" />
       </button>
       <button
         onClick={nextImage}
-        className="hidden md:block absolute z-10 right-4 top-1/2 -translate-y-1/2 p-2 rounded-full bg-white/20 hover:bg-white/30 transition-colors"
+        className="absolute z-10 right-4 top-1/2 -translate-y-1/2 p-2 rounded-full bg-white/20 hover:bg-white/30 transition-colors"
         aria-label="Próxima imagem"
       >
         <ChevronRight className="h-6 w-6 text-white" />

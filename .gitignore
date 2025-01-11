@@ -1,6 +1,5 @@
 .env
 bun.lockb
-tsconfig.node.json
 components.json
 
 # Logs
