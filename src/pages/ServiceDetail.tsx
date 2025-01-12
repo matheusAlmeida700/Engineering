@@ -89,7 +89,7 @@ const ServiceDetail = () => {
 
             <div className="bg-white rounded-xl shadow-lg p-6 space-y-4">
               <h2 className="text-2xl font-semibold">Depoimentos de Clientes</h2>
-              <Carousel className="w-full">
+              <Carousel className="w-full overflow-hidden md:overflow-visible">
                 <CarouselContent>
                   {service.testimonials.map((testimonial, index) => (
                     <CarouselItem key={index}>
