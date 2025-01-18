@@ -416,7 +416,7 @@ export const Services = ({ id }) => {
 
   return (
     <section id={id} className="py-12 bg-gradient-to-b from-gray-50 to-white">
-      <div className="container mx-auto px-16">
+      <div className="container mx-auto md:px-16">
         <div className="text-center mb-12 animate-fade-down">
           <h2 className="text-3xl font-bold text-primary mb-4">
             Nossos Serviços
@@ -481,8 +481,8 @@ export const Services = ({ id }) => {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
+          <CarouselPrevious className="hidden md:block" />
+          <CarouselNext className="hidden md:block"/>
         </Carousel>
       </div>
     </section>
