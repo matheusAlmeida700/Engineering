@@ -21,14 +21,12 @@ export const Contact = ({ id }) => {
 
   const filteredSocialLinks = SOCIAL_LINKS.filter(link => 
     link.ariaLabel === "Whatsapp" || 
-    link.ariaLabel === "Email" || 
-    link.ariaLabel === "Instagram"
+    link.ariaLabel === "Email"
   );
 
   const contactItems = [
     { icon: <Phone className="h-6 w-6 text-primary-600" />, title: "Whatsapp", content: <a href={whatsappLink} target="_blank" className="text-gray-600 hover:text-primary-600">+55 11 12345-6789</a> },
     { icon: <Mail className="h-6 w-6 text-primary-600" />, title: "Email", content: <a href={emailLink} target="_blank" className="text-gray-600 hover:text-primary-600">contato@engineering.com</a> },
-    { icon: <Instagram className="h-6 w-6 text-primary-600" />, title: "Instagram", content: <a href={filteredSocialLinks[2]?.href} target="_blank" className="text-gray-600 hover:text-primary-600">@engineering_main</a> },
     { icon: <MapPin className="h-6 w-6 text-primary-600" />, title: "Endereço", content: <p className="text-gray-600">123 Engineering Street<br />Tech City, TC 12345</p> }
   ];
 

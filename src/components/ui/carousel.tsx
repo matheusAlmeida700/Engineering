@@ -1,3 +1,48 @@
+  // createService(
+  //   "Serviços NR13",
+  //   "Inspeção e avaliação especializada com certificação para vasos de pressão",
+  //   "https://www.officenr.com.br/blog/wp-content/uploads/2020/07/a-portrait-of-an-industrial-man-engineer-with-smar-BHPUKGA_3-scaled.jpg",
+  //   Gauge,
+  //   "Nossos serviços NR13 incluem inspeção e certificação abrangentes de vasos de pressão, garantindo segurança e conformidade com todos os requisitos regulamentares.",
+  //   [
+  //     { question: "Quais equipamentos precisam de certificação NR13?", answer: "Caldeiras, vasos de pressão e sistemas de tubulação precisam de certificação NR13." },
+  //     { question: "Qual é a validade da certificação NR13?", answer: "A validade da certificação varia de acordo com o tipo de equipamento e as condições de uso, geralmente de 12 a 24 meses." }
+  //   ],
+  //   [
+  //     { text: "Processo de inspeção minucioso com documentação detalhada.", author: "Carlos Rodriguez", company: "Energy Systems Inc" },
+  //     {text: "Excelente serviço, com um processo bem estruturado e documentação clara.", author: "Fernanda Silva", company: "Tech Solutions Ltda"}
+  //   ]
+  // ),
+  // createService(
+  //   "Inspeção de Equipamentos",
+  //   "Avaliação detalhada de equipamentos e serviços de manutenção",
+  //   "https://nr12.schmersal.com.br/news_images/41.jpg",
+  //   Settings,
+  //   "Oferecemos inspeções detalhadas de equipamentos utilizando ferramentas diagnósticas avançadas para garantir desempenho e segurança ideais.",
+  //   [
+  //     { question: "Quais tipos de equipamentos vocês inspecionam?", answer: "Inspecionamos máquinas industriais, equipamentos de fabricação e sistemas de segurança." },
+  //     { question: "O que está incluído na inspeção?", answer: "Nossas inspeções cobrem componentes mecânicos, sistemas elétricos, recursos de segurança e eficiência operacional." }
+  //   ],
+  //   [
+  //     { text: "Inspeções regulares reduziram significativamente nossos custos de manutenção.", author: "Sarah Johnson", company: "Tech Manufacturing" },
+  //     {text: "Com a inspeção de equipamentos, conseguimos antecipar problemas e evitar paradas inesperadas.", author: "Lucas Almeida", company: "Indústria Forte"}
+  //   ]
+  // ),
+  // createService(
+  //   "Soluções Técnicas",
+  //   "Soluções de engenharia personalizadas para desafios complexos",
+  //   "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+  //   Cog,
+  //   "Desenvolvemos soluções técnicas sob medida para enfrentar seus desafios específicos de engenharia, melhorando a eficiência e a segurança.",
+  //   [
+  //     { question: "Como vocês abordam soluções personalizadas?", answer: "Analisamos suas necessidades específicas, desenvolvemos um plano detalhado e implementamos soluções com suporte contínuo." }
+  //   ],
+  //   [
+  //     { text: "A solução personalizada deles aumentou nossa eficiência de produção em 30%.", author: "Michael Chang", company: "Innovation Corp" },
+  //     { text: "A solução técnica implementada otimizou nossos processos e melhorou a qualidade em 20%.", author: "Tatiane Costa", company: "Tech Innovations Ltda" }
+  //   ]
+  // )
+
 import * as React from "react"
 import useEmblaCarousel, {
   type UseEmblaCarouselType,
