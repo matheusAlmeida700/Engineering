@@ -157,11 +157,13 @@ export const services = [
     [
       {
         question: "Por que é importante inspecionar caldeiras regularmente?",
-        answer: "As inspeções garantem a segurança operacional, evitando acidentes e melhorando a eficiência energética.",
+        answer:
+          "As inspeções garantem a segurança operacional, evitando acidentes e melhorando a eficiência energética.",
       },
       {
         question: "Com que frequência as caldeiras devem ser inspecionadas?",
-        answer: "A recomendação é realizar inspeções anuais ou conforme determinado pela legislação local.",
+        answer:
+          "A recomendação é realizar inspeções anuais ou conforme determinado pela legislação local.",
       },
     ],
     [
@@ -186,11 +188,13 @@ export const services = [
     [
       {
         question: "O que é a calibração de válvulas?",
-        answer: "É o processo de ajuste das válvulas para garantir que funcionem corretamente em condições de pressão específicas.",
+        answer:
+          "É o processo de ajuste das válvulas para garantir que funcionem corretamente em condições de pressão específicas.",
       },
       {
         question: "Com que frequência devo calibrar as válvulas de segurança?",
-        answer: "Recomenda-se realizar a calibração anualmente ou após eventos que possam afetar sua operação.",
+        answer:
+          "Recomenda-se realizar a calibração anualmente ou após eventos que possam afetar sua operação.",
       },
     ],
     [
@@ -215,11 +219,13 @@ export const services = [
     [
       {
         question: "O que é a apreciação de risco?",
-        answer: "É o processo de análise para identificar e mitigar riscos em máquinas e equipamentos.",
+        answer:
+          "É o processo de análise para identificar e mitigar riscos em máquinas e equipamentos.",
       },
       {
         question: "Por que a apreciação de risco é importante?",
-        answer: "Ela é essencial para prevenir acidentes, proteger trabalhadores e garantir conformidade com a legislação.",
+        answer:
+          "Ela é essencial para prevenir acidentes, proteger trabalhadores e garantir conformidade com a legislação.",
       },
     ],
     [
@@ -244,11 +250,13 @@ export const services = [
     [
       {
         question: "O que é um laudo de vasos de pressão?",
-        answer: "É um documento técnico que atesta a condição de segurança e conformidade dos vasos de pressão.",
+        answer:
+          "É um documento técnico que atesta a condição de segurança e conformidade dos vasos de pressão.",
       },
       {
         question: "Quem pode emitir o laudo de vasos de pressão?",
-        answer: "Somente profissionais habilitados e credenciados podem emitir este tipo de laudo.",
+        answer:
+          "Somente profissionais habilitados e credenciados podem emitir este tipo de laudo.",
       },
     ],
     [
@@ -273,11 +281,13 @@ export const services = [
     [
       {
         question: "Por que preciso de um laudo de calibração?",
-        answer: "O laudo garante que as válvulas estão calibradas corretamente e em conformidade com as normas técnicas.",
+        answer:
+          "O laudo garante que as válvulas estão calibradas corretamente e em conformidade com as normas técnicas.",
       },
       {
         question: "Quando devo solicitar um laudo de calibração?",
-        answer: "Sempre que uma válvula de segurança for calibrada, um laudo deve ser emitido.",
+        answer:
+          "Sempre que uma válvula de segurança for calibrada, um laudo deve ser emitido.",
       },
     ],
     [
@@ -302,11 +312,13 @@ export const services = [
     [
       {
         question: "Quais máquinas precisam de apreciação de risco?",
-        answer: "Todas as máquinas que apresentam risco para os operadores ou terceiros devem ser analisadas.",
+        answer:
+          "Todas as máquinas que apresentam risco para os operadores ou terceiros devem ser analisadas.",
       },
       {
         question: "Qual o principal objetivo da apreciação de risco?",
-        answer: "Garantir a segurança dos operadores e a conformidade com as normas regulamentadoras.",
+        answer:
+          "Garantir a segurança dos operadores e a conformidade com as normas regulamentadoras.",
       },
     ],
     [
@@ -331,11 +343,13 @@ export const services = [
     [
       {
         question: "Por que é importante inspecionar guindastes?",
-        answer: "As inspeções previnem falhas, garantem segurança e aumentam a vida útil dos equipamentos.",
+        answer:
+          "As inspeções previnem falhas, garantem segurança e aumentam a vida útil dos equipamentos.",
       },
       {
         question: "Com que frequência devo inspecionar guindastes?",
-        answer: "Inspeções regulares devem ser realizadas, conforme as normas e recomendações do fabricante.",
+        answer:
+          "Inspeções regulares devem ser realizadas, conforme as normas e recomendações do fabricante.",
       },
     ],
     [
@@ -360,11 +374,13 @@ export const services = [
     [
       {
         question: "O que é uma linha de vida?",
-        answer: "É um sistema de segurança projetado para proteger trabalhadores em atividades realizadas em altura.",
+        answer:
+          "É um sistema de segurança projetado para proteger trabalhadores em atividades realizadas em altura.",
       },
       {
         question: "Quem pode instalar linhas de vida?",
-        answer: "Somente profissionais habilitados devem projetar e instalar linhas de vida.",
+        answer:
+          "Somente profissionais habilitados devem projetar e instalar linhas de vida.",
       },
     ],
     [
@@ -389,11 +405,13 @@ export const services = [
     [
       {
         question: "Quem pode fazer o treinamento?",
-        answer: "Qualquer pessoa que opere ou pretenda operar caldeiras em ambiente industrial.",
+        answer:
+          "Qualquer pessoa que opere ou pretenda operar caldeiras em ambiente industrial.",
       },
       {
         question: "O treinamento é obrigatório?",
-        answer: "Sim, a capacitação é obrigatória para atender as exigências legais e garantir a segurança do operador.",
+        answer:
+          "Sim, a capacitação é obrigatória para atender as exigências legais e garantir a segurança do operador.",
       },
     ],
     [
@@ -408,7 +426,7 @@ export const services = [
         company: "Energy Systems",
       },
     ]
-  ),  
+  ),
 ];
 
 export const Services = ({ id }) => {
@@ -481,8 +499,8 @@ export const Services = ({ id }) => {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="hidden md:block" />
-          <CarouselNext className="hidden md:block"/>
+          <CarouselPrevious className="left-2 md:-left-12" />
+          <CarouselNext className="right-2 md:-right-12" />
         </Carousel>
       </div>
     </section>
